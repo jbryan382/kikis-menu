@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Menu1 from './assets/MenuPROOF.jpg'
+import Menu2 from './assets/MenuPROOF2.jpg'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <div>
+        <img src={Menu1} alt="Lunch Catering" />
+        <img src={Menu2} alt="Daily Lunch Specials" />
+      </div>
+    )
   }
 }
 
